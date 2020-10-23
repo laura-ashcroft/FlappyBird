@@ -7,9 +7,16 @@
     <title>Flappy Bird</title> 
     <style>
       body {
+        font-family: "Bubblegum Sans";
+        font-size: 22px;
         padding: 0;
         margin: 0;
       }
+      section {
+            border: 2px solid grey;
+            border-radius: 8px;
+            background-color: rgb(120, 176, 202);
+            }
     </style>
   </head>  
   <body>  
@@ -19,8 +26,23 @@
     <img src ='./pipe.png' id="pipe" style="display: none;"/>
     <img src='./bg.png' id="bg" style="display: none;"/>
 
+    <section>    
+      <form>
+          <label for="playerName"> &nbsp Player Name:</label><br>
+          &nbsp <input type="text" id="playerName" name="playerName">
+          <input type="submit" value="Submit">  <p id="score">&nbsp Score: &nbsp 0</p> &nbsp  <button id="resetButton">Reset Score</button> 
+      </form>
+      </section>
+      <br>
+      <section>
+      How to play...<br><br>
+      Tap the spacebar to control your sprite. How far can you fly before hitting a pipe!?!
+      <br>
+      <br>
+      <br>
+      </section>
 
-   
+  <script src ="score.js"></script>
    <script src ="Pipe.js"></script>
    <script src="main.js"></script>
    <script src="Environment.js"></script>
