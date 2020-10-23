@@ -36,7 +36,7 @@ window.onload = function() {
 
 function generateRandomPipes(ctx, canvasWidth, canvasHeight) {
     let lengthTop = Math.round(Math.random()*200+100);
-    let lengthBottom = 530 - 120 - lengthTop;
+    let lengthBottom = 530 - 100 - lengthTop;
     let returnVal = { };
     returnVal.top = new Pipe(0, 706, lengthTop, 3, ctx);
     returnVal.bottom = new Pipe(530+5-lengthTop, 706, lengthBottom, 3, ctx);
