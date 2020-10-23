@@ -1,7 +1,7 @@
-function myFunction() {
-    //let playerName = document.getElementById("playerName").value();
-    let input = document.querySelector('input');
-    let label = document.querySelector("playerLabel");
-    label.innerText = `Player Name:  ${inputValue}`;
-    return input.value;
-  }
+// function myFunction() {
+//     //let playerName = document.getElementById("playerName").submit();
+//     let input = document.querySelector('playerButton');
+//     let label = document.querySelector('playerLabel');
+//     label.innerText = `Player Name:  ${input.value}`;
+//     return input.value;
+//   }
